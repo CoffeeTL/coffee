@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/img_cell_iv"-->
+        <!--android:layout_marginRight="9dp"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--fresco:roundedCornerRadius="8dp"-->
+        <!--fresco:actualImageScaleType="focusCrop"-->
+        <!--fresco:fadeDuration="300"-->
+        <!--fresco:failureImage="@mipmap/icon_model_placeholder"-->
+        <!--fresco:placeholderImage="@mipmap/icon_model_placeholder"-->
+        <!--fresco:placeholderImageScaleType="fitXY"-->
+        <!--fresco:retryImageScaleType="centerCrop"/>-->
+    <ImageView
+        android:id="@+id/img_cell_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
